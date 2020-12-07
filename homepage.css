@@ -1,0 +1,83 @@
+body{
+			margin: 0;
+            background-color: #125050;
+		}
+
+
+#main-page-header{
+			display: flex;
+            justify-content: center;
+			text-align: center;
+			background-color: #125050;
+            margin-bottom: 100px;
+            margin-top: 30px;
+		}
+		
+
+
+
+
+#logo {
+            
+            
+            color: #FFFF;
+            font-size: 80px;
+            text-decoration: none;
+        }
+		
+
+
+#Learn {
+    
+position: absolute;
+top: 40%;
+left: 56%;
+width: 15%;
+color: #125050 ;
+text-transform: uppercase;
+text-decoration: none;
+background: #FFF;
+padding: 30px;
+border-radius: 8px;
+display: inline-block;
+border: none;
+transition: all 1s ease 0s;
+}
+    
+#Learn:hover {
+    
+background: black;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+#Report {
+    
+position: absolute;
+top: 40%;
+left: 28%;
+width: 15%;
+color: #125050 ;
+text-transform: uppercase;
+text-decoration: none;
+background: #FFF;
+padding: 30px;
+border-radius: 8px;
+display: inline-block;
+border: none;
+transition: all 1s ease 0s;
+    
+}
+
+#Report:hover {
+    
+background: black;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+
+
+		

@@ -6,5 +6,3 @@
 - Simen Kandahl
 - Marcus Mangmisi
 - Markus Kristiansen
- 
-
