@@ -5,12 +5,12 @@ body{
 
 
 #main-page-header{
-			display: flex;
-            justify-content: center;
-			text-align: center;
-			background-color: #125050;
-            margin-bottom: 100px;
-            margin-top: 30px;
+display: flex;
+justify-content: center;
+text-align: center;
+background-color: #125050;
+margin-bottom: 100px;
+margin-top: 30px;
 		}
 		
 
@@ -20,10 +20,11 @@ body{
 #logo {
             
             
-            color: #FFFF;
-            font-size: 80px;
-            text-decoration: none;
-        }
+color: #FFFF;
+font-size: 80px;
+text-decoration: none;
+        
+}
 		
 
 
