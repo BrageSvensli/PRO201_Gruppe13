@@ -79,6 +79,68 @@ letter-spacing: 1px;
 transition: all 0.4s ease 0s;
 }
 
+.footer{
+    
+width: 100vw;
+height: 200px;
+display: block;
+overflow: hidden;
+padding: 70px 0;
+box-sizing: border-box;
+background-color: #FFF;
+position: absolute;
+bottom: 0;
+    
+}
+
+.inner-footer {
+    
+display: block;
+margin: 0 auto;
+width: 1100px;
+height: 100%;
+    
+}
+
+.inner-footer .logo_container{
+    
+width: 35%;
+float: left;
+height: 100%;
+display: block;
+}
+
+.inner-footer .logo_container img{
+    
+width: 230px;
+height: auto;
+
+}
+
+.inner-footer .third-footer {
+
+    width: 20%;
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+
+.inner-footer .third-footer h1{
+    
+font-size: 25px;
+color: black;
+}
+
+.inner-footer .third-footer a{
+ 
+font-size: 18px;
+color: black;
+display: block;
+font-weight: 200;
+width: 100%;
+padding-bottom: 5px;
+
+}
 
 
 		
