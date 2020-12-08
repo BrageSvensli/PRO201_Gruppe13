@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    background-color: #125050;
+}
+
+.confirmation-box{
+    display: block;
+    height: 100%;
+    border: 2px solid black;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    text-align: center;
+    
+}
+
+.confirmation-box h1{
+    color: white;
+}
+
+#Homepage {
+    
+
+color: #125050 ;
+text-transform: uppercase;
+text-decoration: none;
+background: black;
+padding: 20px;
+border-radius: 8px;
+display: inline-block;
+border: none;
+
+}
+    
+
+    
