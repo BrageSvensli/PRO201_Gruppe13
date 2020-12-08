@@ -1,0 +1,44 @@
+body{
+    
+    margin: 0px;
+    background-color: #405C6A;
+    
+}
+
+header{
+
+display: flex;
+justify-content: center;
+    
+}
+
+header img{
+
+    width: 20%;
+    
+    }
+
+section{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+}
+
+
+section div{
+    
+    width: 40%;
+    background-color: #9FD18B;
+    column-gap: 10px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+section h1{
+    
+    font-size-adjust: inherit;
+    color: #405C6A;
+    
+}
