@@ -1,6 +1,9 @@
 body{
-			margin: 0;
-            background-color: #125050;
+    
+margin: 0;
+padding: 0;
+background-color: #125050;
+    
 		}
 
 
@@ -11,6 +14,7 @@ text-align: center;
 background-color: #125050;
 margin-bottom: 100px;
 margin-top: 30px;
+    
 		}
 		
 
@@ -18,7 +22,6 @@ margin-top: 30px;
 
 
 #logo {
-            
             
 color: #FFFF;
 font-size: 80px;
@@ -85,7 +88,8 @@ width: 100vw;
 height: 200px;
 display: block;
 overflow: hidden;
-padding: 70px 0;
+padding: 30px;
+padding-right: 70px;
 box-sizing: border-box;
 background-color: #FFF;
 position: absolute;
@@ -108,27 +112,44 @@ width: 35%;
 float: left;
 height: 100%;
 display: block;
+    
 }
 
 .inner-footer .logo_container img{
     
+position: fixed;
 width: 230px;
 height: auto;
+left: 100px;
+bottom: 20px;
 
+
+    
 }
 
 .inner-footer .third-footer {
 
-    width: 20%;
-    margin-right: 10px;
-    float: left;
-    height: 100%;
+width: 20%;
+margin-right: 10px;  
+float: left;
+height: 100%;
+    
+}
+
+
+.inner-footer .third-footer:last-child {
+    
+margin-right: 0;
+    
 }
 
 .inner-footer .third-footer h1{
     
 font-size: 25px;
 color: black;
+display: block;
+
+
 }
 
 .inner-footer .third-footer a{
@@ -136,9 +157,20 @@ color: black;
 font-size: 18px;
 color: black;
 display: block;
-font-weight: 200;
+font-weight: 200px;
 width: 100%;
-padding-bottom: 5px;
+padding-bottom: 10px;
+text-decoration: none;
+
+
+}
+
+.inner-footer .third-footer li {
+
+display: inline-block;
+padding: 0 5px;
+font-size: 30px;
+    
 
 }
 
