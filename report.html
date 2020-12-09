@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="report.css">
+    <title>Report</title>
+</head>
+<body>
+    
+    <form class="form-inline d-flex">
+        <input type="text" placeholder="user id" id="userId">
+        
+        <div>
+            <input type="checkbox" id="battery" value="Battery">Batteri
+        </div>
+        <div>
+            <input type="checkbox" id="solarPanel" value="Solar Panel">Solar Panel
+        </div>
+        <br>
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+    
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
