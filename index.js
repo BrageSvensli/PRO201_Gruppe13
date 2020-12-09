@@ -38,14 +38,22 @@ firebase.initializeApp(firebaseConfig);
         var repairRef = firebase.database().ref('repair').push().set(
             {   
                 userID: userId.value,
-                solarpanel: solarPanel.value, 
+                solarpanel: solarPanel.value
             }
         );
         }else if(battery.checked === true){
             var repairRef = firebase.database().ref('repair').push().set(
                 {   
                     userID: userId.value,
-                    battery: battery.value, 
+                    battery: battery.value
+                }
+            ); 
+        }else if(battery.checked === true && solarPanel.checked === true){
+            var repairRef = firebase.database().ref('repair').push().set(
+                {   
+                    userID: userId.value,
+                    battery: battery.value,
+                    solarpanel: solarPanel.value 
                 }
             ); 
         }
