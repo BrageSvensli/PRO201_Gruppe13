@@ -1,6 +1,8 @@
 
 const Workers = require('./server_functions/Workers.js');
 const Camps = require('./server_functions/Camps.js');
+const Parts = require('./server_functions/Parts.js');
+const Products = require('./server_functions/Products.js');
 
 const print = require('./server_functions/print.js').print;
 const files = require('./server_functions/read_write.js');
