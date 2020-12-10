@@ -3,7 +3,10 @@ body{
     background-color: #405C6A;
     color: #FFFF;
     font-size: 1.2rem;
+    height: 100vh;
+    width: 100vw;
     text-decoration: none;
+    overflow-y: hidden;
 
 }
 
@@ -16,7 +19,7 @@ body{
 #brightPicture{
     width: 200px;
     position: absolute;
-    top: 20px;
+    top: -100px;
     left: 43%;
     
 }
@@ -80,14 +83,14 @@ border-radius: 15%;
     color: black;
     position: absolute;
     top: 318px;
-    left: 35%;
+    left: 33%;
 }
 
 #password{
     color: black;
     position: absolute;
     top: 418px;
-    left: 35%;
+    left: 33%;
 
 }
 
@@ -101,8 +104,8 @@ border-radius: 15%;
     color: #050607;
     font-size: 20px;
     position: relative;
-    top: 232px;
-    left: 53.5%;
+    top: -70px;
+    left: 63%;
     z-index: 2;
     
 }
@@ -111,8 +114,8 @@ border-radius: 15%;
     color: #050607;
     font-size: 20px;
     position: relative;
-    top: 308px;
-    left: 53.5%;
+    top: 8px;
+    left: 63%;
     z-index: 2;
 }
 
