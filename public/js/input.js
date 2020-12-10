@@ -23,3 +23,27 @@ document.getElementById('submit-worker-btn').addEventListener(
         camp.value = '';
     }
 );
+
+// Add event listner
+document.getElementById('submit-camp-btn').addEventListener(
+    'click', function () {
+
+        // Get DOM-elements
+        const id = document.getElementById('camp-id');
+        const name = document.getElementById('camp-name');
+        const location = document.getElementById('camp-location');
+
+        const data = {
+            type: 'Camp',
+            camp_id: id.value,
+            camp_name: name.value,
+            camp_location: location.value
+        };
+
+        postData(data);
+
+        id.value = '';
+        name.value = '';
+        location.value = '';
+    }
+);
