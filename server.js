@@ -33,11 +33,11 @@ app.post('/api', (req, res) => {
     } else if (data.type == 'Camp') {
         Camps.updateCamp(data);
     } else if (data.type == 'Product') {
-        // ...
+        Products.updateProduct(data);
     } else if (data.type == 'Part') {
-        // ...
+        Parts.updatePart(data);
     } else if (data.type == 'Repair') {
-        // ...
+        Repairs.update(data);
     }
 
     res.sendStatus(200);
