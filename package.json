@@ -1,0 +1,22 @@
+{
+  "name": "pro201_gruppe13",
+  "version": "1.0.0",
+  "description": "- Brage Svensli\r - Benjamin Larsen\r - Olav Jorås\r - Simen Kandahl\r - Marcus Mangmisi\r - Markus Kristiansen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrageSvensli/PRO201_Gruppe13.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrageSvensli/PRO201_Gruppe13/issues"
+  },
+  "homepage": "https://github.com/BrageSvensli/PRO201_Gruppe13#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
