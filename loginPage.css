@@ -7,3 +7,73 @@ body{
 
 }
 
+#brightPicture{
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 20px;;
+    
+}
+
+#backGroundBox{
+    background-color: #ffff;
+  width: 650px;
+  position: relative;
+  left: 300px;
+  top: 80px;
+  border: 5px solid #9FD18B;
+  padding:300px;
+  margin: 20px;
+}
+
+#typeInTxt{
+    position: relative;
+    text-align: center;
+    top: -300px;
+    color: #405C6A;
+    
+}
+
+input[type=text] {
+    border: 2px solid #9FD18B;
+    border-radius: 5px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  
+  }
+
+#button{
+background-color:#405C6A; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  position: relative;
+  left: 55px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+border-radius: 15%;
+}
+
+#button:hover{
+    background-color: #9FD18B;
+    color: #405C6A;
+}
+
+#userIcon{
+    color: #050607;
+    font-size: 40px;
+    position: relative;
+    top: -520px;
+    left: 600px;
+}
+
+#pswIcon{
+    color: #050607;
+    font-size: 40px;
+    position: relative;
+    top: -480px;
+    left: 600px;
+}
