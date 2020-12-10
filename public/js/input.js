@@ -47,3 +47,51 @@ document.getElementById('submit-camp-btn').addEventListener(
         location.value = '';
     }
 );
+
+// Add event listner
+document.getElementById('submit-product-btn').addEventListener(
+    'click', function () {
+
+        // Get DOM-elements
+        const id = document.getElementById('product-id');
+        const camp = document.getElementById('product-camp');
+        const date_recieved = document.getElementById('product-date_recieved');
+
+        const data = {
+            type: 'Product',
+            product_id: id.value,
+            product_camp: camp.value,
+            product_date_recieved: date_recieved.value
+        };
+
+        postData(data);
+
+        id.value = '';
+        camp.value = '';
+        date_recieved.value = '';
+    }
+);
+
+// Add event listner
+document.getElementById('submit-part-btn').addEventListener(
+    'click', function () {
+
+        // Get DOM-elements
+        const id = document.getElementById('part-id');
+        const type = document.getElementById('part-type');
+        const camp = document.getElementById('part-camp');
+
+        const data = {
+            type: 'part',
+            part_id: id.value,
+            part_type: type.value,
+            part_camp: camp.value
+        };
+
+        postData(data);
+
+        id.value = '';
+        type.value = '';
+        camp.value = '';
+    }
+);
