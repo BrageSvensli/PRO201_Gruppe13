@@ -4,10 +4,9 @@ const db = require('./read_write.js');
 const print = require('./print.js').print;
 
 class Product {
-    constructor(id, camp, date_recieved) {
+    constructor(id, camp) {
         this.id = id;
         this.camp = camp;
-        this.date_recieved = date_recieved;
     }
 }
 
@@ -23,16 +22,15 @@ function updateProduct(data) {
         if (dataArray[i].id == data.product_id) {
             foundElement = true;
             dataArray[i].camp = data.product_camp;
-            dataArray[i].date_recieved = data.product_recieved;
-            print(`Updated PRODUCT -> Id: ${data.product_id} - Camp: ${data.product_camp} - Navn:${data.date_recieved}`);
+            print(`Updated PRODUCT -> Id: ${data.product_id} - Camp: ${data.product_camp}`);
             break;
         }
     }
 
     // New user!
     if (!foundElement) {
-        print(`Added new PRODUCT -> Id: ${data.product_id} - Camp: ${data.product_camp} - Navn:${data.date_recieved}`);
-        const newProduct = new Product(data.product_id, data.product_camp, data.product_recieved);
+        print(`Added new PRODUCT -> Id: ${data.product_id} - Camp: ${data.product_camp}`);
+        const newProduct = new Product(data.product_id, data.product_camp);
         dataArray.push(newProduct);
     }
 

@@ -55,20 +55,17 @@ document.getElementById('submit-product-btn').addEventListener(
         // Get DOM-elements
         const id = document.getElementById('product-id');
         const camp = document.getElementById('product-camp');
-        const date_recieved = document.getElementById('product-date_recieved');
 
         const data = {
             type: 'Product',
             product_id: id.value,
             product_camp: camp.value,
-            product_date_recieved: date_recieved.value
         };
 
         postData(data);
 
         id.value = '';
         camp.value = '';
-        date_recieved.value = '';
     }
 );
 
@@ -82,7 +79,7 @@ document.getElementById('submit-part-btn').addEventListener(
         const camp = document.getElementById('part-camp');
 
         const data = {
-            type: 'part',
+            type: 'Part',
             part_id: id.value,
             part_type: type.value,
             part_camp: camp.value
