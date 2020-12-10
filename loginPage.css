@@ -7,19 +7,25 @@ body{
 
 }
 
+#main-container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
 #brightPicture{
     width: 200px;
-    position: relative;
+    position: absolute;
     top: 20px;
-    left: 20px;;
+    left: 43%;
     
 }
 
 #backGroundBox{
     background-color: #ffff;
   width: 650px;
-  position: relative;
-  left: 300px;
+  position: absolute;
+  left: 12%;
   top: 80px;
   border: 5px solid #9FD18B;
   padding:300px;
@@ -27,9 +33,10 @@ body{
 }
 
 #typeInTxt{
-    position: relative;
+    position: absolute;
     text-align: center;
-    top: -300px;
+    left: 38%;
+    top: 300px;
     color: #405C6A;
     
 }
@@ -39,7 +46,7 @@ input[type=text] {
     border-radius: 5px;
   padding: 12px 20px;
   margin: 8px 0;
-  
+  z-index: 2;
   }
 
 #button{
@@ -47,7 +54,7 @@ background-color:#405C6A;
   border: none;
   color: white;
   padding: 15px 32px;
-  position: relative;
+  position: absolute;
   left: 55px;
   text-decoration: none;
   display: inline-block;
@@ -64,16 +71,19 @@ border-radius: 15%;
 
 #userIcon{
     color: #050607;
-    font-size: 40px;
+    font-size: 20px;
     position: relative;
-    top: -520px;
-    left: 600px;
+    top: 320px;
+    left: 55.5%;
+    z-index: 1;
 }
 
 #pswIcon{
     color: #050607;
-    font-size: 40px;
+    font-size: 20px;
     position: relative;
-    top: -480px;
-    left: 600px;
+    top: 378px;
+    left: 55.5%;
+    z-index: 1;
 }
+
