@@ -55,7 +55,8 @@ background-color:#405C6A;
   color: white;
   padding: 15px 32px;
   position: absolute;
-  left: 55px;
+  left: 45.5%;
+  top: 500px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -69,21 +70,49 @@ border-radius: 15%;
     color: #405C6A;
 }
 
+#username-box{
+    position: absolute;
+    top: 300px;
+    left: 42.5%;
+}
+
+#username{
+    color: black;
+    position: absolute;
+    top: 318px;
+    left: 35%;
+}
+
+#password{
+    color: black;
+    position: absolute;
+    top: 418px;
+    left: 35%;
+
+}
+
+#password-box{
+    position: absolute;
+    top: 400px;
+    left: 42.5%;
+}
+
 #userIcon{
     color: #050607;
     font-size: 20px;
     position: relative;
-    top: 320px;
-    left: 55.5%;
-    z-index: 1;
+    top: 232px;
+    left: 53.5%;
+    z-index: 2;
+    
 }
 
 #pswIcon{
     color: #050607;
     font-size: 20px;
     position: relative;
-    top: 378px;
-    left: 55.5%;
-    z-index: 1;
+    top: 308px;
+    left: 53.5%;
+    z-index: 2;
 }
 
