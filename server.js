@@ -3,6 +3,8 @@ const Workers = require('./server_functions/Workers.js');
 const Camps = require('./server_functions/Camps.js');
 
 const print = require('./server_functions/print.js').print;
+const files = require('./server_functions/read_write.js');
+const config = require('./server_functions/config.js');
 
 const fs = require('fs');
 const express = require('express');
@@ -49,3 +51,18 @@ app.use('/public', express.static('public'));
 app.listen(port, () => {
     print(`Server has started on port ${port}`);
 })
+
+// Print current data in storrage
+function printData(path) {
+    const data = files.readJSON(path);
+    
+    print(`Content of ${path}:`)
+
+    let i;
+    for(i=0; i<data.length; i++) {
+        print(`\t${JSON.stringify(data[i])}`);
+    }
+}
+
+printData(config.JSON_PATH_CAMP);
+printData(config.JSON_PATH_WORKER);

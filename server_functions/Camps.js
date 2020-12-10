@@ -1,6 +1,8 @@
 
 const config = require('./config.js');
 const db = require('./read_write.js');
+const print = require('./print.js').print;
+
 
 class Camp {
     constructor(id, name, location) {
