@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #405C6A;
+    color: #FFFF;
+    font-size: 1.2rem;
+    height: 100vh;
+    width: 100vw;
+    text-decoration: none;
+    overflow-y: hidden;
+
+}
+
+
+#container{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    left: 600px;
+    top: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#boxOne{
+    width: 200px;
+    height: 200px;
+    background-color: #ffff;
+    border: 5px solid #9FD18B
+
+}
+
+#boxTwo{
+    width: 200px;
+    height: 200px;
+    background-color: #ffff;
+    border: 5px solid #9FD18B
+}
+
+#brightPicture
