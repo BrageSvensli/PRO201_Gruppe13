@@ -12,11 +12,11 @@ body{
 
 
 #container{
-    width: 800px;
+    width: 950px;
     height: 500px;
     position: relative;
-    left: 600px;
-    top: 250px;
+    left: 350px;
+    top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,7 +25,13 @@ body{
     width: 200px;
     height: 200px;
     background-color: #ffff;
-    border: 5px solid #9FD18B
+    border: 5px solid #9FD18B;
+    color: #405C6A;
+    text-align: center;
+    font-size: 30px;
+    
+    
+    
 
 }
 
@@ -33,7 +39,34 @@ body{
     width: 200px;
     height: 200px;
     background-color: #ffff;
-    border: 5px solid #9FD18B
+    border: 5px solid #9FD18B;
+    color: #405C6A;
+    text-align: center;
+    font-size: 30px;
+    
 }
 
-#brightPicture
+#brightPicture{
+    width: 200px;
+    position: relative;
+    top: 260px;
+    left: 890px;
+}
+
+#tools{
+    color: #050607;
+    font-size: 50px;
+    position: relative;
+    top: 60px;
+    left: 57%;
+    z-index: 2;
+}
+
+#info{
+    color: #050607;
+    font-size: 70px;
+    position: relative;
+    top: 60px;
+    left: 42%;
+    z-index: 2;
+}
