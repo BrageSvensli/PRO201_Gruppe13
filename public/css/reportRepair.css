@@ -30,9 +30,11 @@ body{
     text-align: center;
     font-size: 30px;
     
-    
-    
+}
 
+#boxOne:hover{
+    background-color: #9FD18B;
+    color: #405C6A;
 }
 
 #boxTwo{
@@ -44,6 +46,11 @@ body{
     text-align: center;
     font-size: 30px;
     
+}
+
+#boxTwo:hover{
+    background-color: #9FD18B;
+    color: #405C6A;
 }
 
 #brightPicture{
