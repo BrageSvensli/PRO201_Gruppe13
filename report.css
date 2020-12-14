@@ -8,6 +8,11 @@ body {
 
 #main-container{
     
+    margin: 0;
+    margin: auto;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 
 #report-box {
