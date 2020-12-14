@@ -56,7 +56,7 @@ body {
  text-align: ce;
  top: 40px;
  border-bottom: 2px solid black;
-text-align: center;
+ text-align: center;
 }
 
 #led-lights {
@@ -72,6 +72,7 @@ text-align: center;
  font-size: 30px;
  color: #C3DC93;
  border: 10px solid #C3DC93;
+ overflow: hidden;
     
 }
 
