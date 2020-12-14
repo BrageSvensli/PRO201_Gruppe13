@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#page-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#405C6A;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+#logo {
+    width: 150px;
+    padding: 10px;
+}
+
+
+#top-bar-container {
+    position: relative;
+    grid-column: 1 / end;
+    grid-row: 1;
+    background-color: #174A5B;
+    border-bottom: solid 2px #9FD18B;
+    
+}
+
+#left-bar-container {
+    position: relative;
+    grid-column: 1 / 3;
+    grid-row: 2 / end;
+    background-color:  #1e5061;
+    border-right: solid 2px #9FD18B;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 1fr);
+}
+
+#camp-title {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.nav-link {
+    padding: 15px;
+    font-size: 20px;
+}
+
+#tob-bar-inside-main-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 1200px;
+    grid-gap: 300px;
+     
+}
+
+
+
+#tob-bar-inside-main-content h1{
+    font-size: 60px;
+    color: #9FD18B;
+    
+}
+
+#tob-bar-inside-main-content p{
+    font-size: 40px;
+    color: white;
+    
+}
+
+.hei{
+    width: 450px;
+    
+}
+
+#down-bar-inside-main-content{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 50%;
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    grid-gap: 90px;
+    
+    
+}
+
+
+.box{
+     width: 300px;
+    height: 50px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border: 5px solid #9FD18B;
+    color: white;
+    background-color: #405C6A;
+    font-size: 30px;
+    
+    
+}
+
+#down-bar-inside-main-content h1{
+    color: #9FD18B;
+    width: 600px;
+    
+}
+
+#submit-box{
+    margin-top: 20px;
+    
+    margin-left: 200px;
+        
+}
+
+#box-three{
+    margin-left: 120px
+    
+}
+
+#down-bar-inside-main-content select{
+    width: 300px;
+    height: 50px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border: 5px solid #9FD18B;
+    color: white;
+    background-color: #405C6A;
+    font-size: 30px;
+    
+}
+
