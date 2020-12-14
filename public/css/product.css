@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#page-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#405C6A;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+#logo {
+    height: 100%;
+}
+
+
+#top-bar-container {
+    position: relative;
+    grid-column: 1 / end;
+    grid-row: 1;
+    background-color: #174A5B;
+    border-bottom: solid 2px #9FD18B;
+    
+}
+
+#left-bar-container {
+    position: relative;
+    grid-column: 1 / 3;
+    grid-row: 2 / end;
+    background-color:  #1e5061;
+    border-right: solid 2px #9FD18B;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 1fr);
+}
+
+#camp-title {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.nav-link {
+    padding: 15px;
+    font-size: 20px;
+}
