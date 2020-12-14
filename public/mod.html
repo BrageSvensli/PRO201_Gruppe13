@@ -1,54 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/mod.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/parts.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <div id="page-container">
         <div id="top-bar-container">
             <img id="logo" src="./images/bright-repair-logo.png" alt="Logo">
         </div>
-    
+
         <div id="left-bar-container">
-            <p id="camp-title"class="nav-title">CAMP TITLE</p>
+            <p id="camp-title" class="nav-title">CAMP TITLE</p>
             <p id="nav-users" class="nav-link">USERS</p>
             <p id="nav-products" class="nav-link">PRODUCTS</p>
             <p id="nav-parts" class="nav-link">PARTS</p>
             <p id="nav-repairs" class="nav-link">REPAIRS</p>
         </div>
-    
+
         <div id="main-content-container">
 
             <div id="main-content-container-wrapper">
                 <div id="users-view">
                     <p>USERS</p>
+
+
+                    <input id="users-username" type="text">
+                    <input id="users-password" type="text">
+
+                    <select name="users-type" id="users-type">
+                        <option value="user">SunBell Expert</option>
+                        <option value="moderator">Camp Moderator</option>
+                        <option value="admin">Camp Admin</option>
+                    </select>
+
+                    <select name="users-camp" id="users-camp">
+                        <option value="1">Ogalio, Kenya</option>
+                        <option value="2">Badobado, Kenya</option>
+                        <option value="3">Ogigi, Kenya</option>
+                    </select>
+
+                    <div></div>
                 </div>
-    
+
                 <div id="products-view">
-                    <p>
-                        PRODUCTS
-                    </p>
+                    <h1>SUN BELL</h1>
+                    <br>
+                    <p> QTY:</p>
+
+                    <br>
+
+                    <label id="username">CHANGE</label>
+
+                    <input type="text" id="username-box">
+                    <br>
+                    <br>
+                    <label id="password">AMOUNT</label>
+                    <input type="text" id="password-box">
+                    <br>
+                    <br>
+                    <button id="button">SUBMIT</button>
 
 
-
-
-
-                    
                 </div>
-    
+
                 <div id="parts-view">
-                    <p>PARTS</p>
+                    <div id="tob-bar-inside-main-content">
+                        <div class="hei2 hei">
+                            <h1>LED-LIGHTS</h1>
+                            <p>QTY: 100</p>
+                        </div>
 
+                        <div class="hei3 hei">
+                            <h1>BATTERY</h1>
+                            <p>QTY: 500</p>
+                        </div>
 
+                        <div class="hei1 hei">
+                            <h1>SOLAR-PANEL</h1>
+                            <p>QTY: 1000</p>
+                        </div>
+                    </div>
 
+                    <div id="down-bar-inside-main-content">
 
+                        <h1>CHANGE: <select>
+                                <option value="0">Add</option>
+                                <option value="1">LED-LIGHTS</option>
+                                <option value="2">SOLAR-PANEL</option>
+                                <option value="3">BATTERY</option>
+                            </select></h1>
 
+                        <h1>AMOUNT: <button id="box-two" type="button" class="box">hhhh</button></h1>
+                        <h1>TYPE: <select>
+                                <option value="0">Add</option>
+                                <option value="1">LED-LIGHTS</option>
+                                <option value="2">SOLAR-PANEL</option>
+                                <option value="3">BATTERY</option>
+                            </select></h1>
+                        <a href="#"><button id="submit-box" type="button" class="box">Submit</button></a>
+                    </div>
 
 
                 </div>
@@ -58,11 +118,12 @@
                 </div>
             </div>
 
-            
+
 
         </div>
     </div>
 
     <script src="./js/mod.js"></script>
 </body>
+
 </html>

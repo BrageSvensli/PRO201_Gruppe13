@@ -10,6 +10,7 @@ body * {
     font-family: 'Montserrat', sans-serif;
 }
 
+
 #page-container {
     position: absolute;
     width: 100%;
@@ -50,8 +51,6 @@ body * {
     grid-column: 3 / end;
     grid-row: 2 / end;
     overflow: hidden;
-    border: solid 5px red;
-
 }
 
 #main-content-container-wrapper { 
@@ -62,9 +61,12 @@ body * {
 
 
 #users-view {
-    background-color: rgb(255, 127, 127);
+    background-color: #405C6A;
     width: 100%;
     height: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
 }
 
 #products-view {
