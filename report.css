@@ -26,6 +26,7 @@ body {
     text-align: center;
     color: #C3DC93;
     font-size: 42px;
+    border-bottom: 2px solid black;
 }
 
 #serial-number {
@@ -36,16 +37,21 @@ body {
  position: relative;
  text-align: center;
  top: 20px;
+ border-bottom: 2px solid black;
            
 }
+
+
 
 #label-problems {
     
  display: block;
  margin : 0 auto;
  position: relative;
- text-align: center;
+ text-align: ce;
  top: 40px;
+ border-bottom: 2px solid black;
+text-align: center;
 }
 
 #led-lights {
