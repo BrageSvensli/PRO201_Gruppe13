@@ -12,7 +12,7 @@ body{
 }
 
 
-#report-link{
+#report-div{
     position: absolute;
     width: 250px;
     height: 250px;
@@ -20,6 +20,7 @@ body{
     top: 30%;
     left: 30%;
     border: 10px solid #9FD18B;
+    transition: transform .2s;
 }
 
 #report-text{
@@ -39,7 +40,7 @@ body{
     
 }
 
-#repair-link{
+#repair-div{
     position: absolute;
     width: 250px;
     height: 250px;
@@ -47,6 +48,7 @@ body{
     top: 30%;
     left: 60%;
     border: 10px solid #9FD18B;
+    transition: transform .2s;
 }
 
 #hammer-wrench{
@@ -90,3 +92,12 @@ body{
     left: 2%;
     top: 2%;
 }
+
+#report-div:hover{
+    transform: scale(1.1);
+}
+
+#repair-div:hover{
+    transform: scale(1.1);
+}
+
