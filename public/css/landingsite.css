@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+
+#main-container{
+    margin: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color:#174A5B;
+    overflow: hidden;
+}
+
+
+#report-div{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #FBF6ED;
+    top: 30%;
+    left: 30%;
+    border: 10px solid #9FD18B;
+    transition: transform .2s;
+}
+
+#report-text{
+    position: absolute;
+    color: #174A5B;
+    top: 50%;
+    font-size: 400%;
+    text-align: center;
+    left: 10%;
+}
+
+#info-bubble{
+    position: absolute;
+    left: 10%;
+    top: -3%;
+    width: 200px;
+    transition: transform 1.5s;
+}
+
+#repair-div{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #FBF6ED;
+    top: 30%;
+    left: 60%;
+    border: 10px solid #9FD18B;
+    transition: transform .2s;
+}
+
+#hammer-wrench{
+    position: absolute;
+    width: 170px;
+    left: 16%;
+    transition: transform 1.5s;
+}
+
+#repair-text{
+    position: absolute;
+    color: #174A5B;
+    top: 50%;
+    font-size: 400%;
+    text-align: center;
+    left: 10%;
+}
+
+#link-report{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+
+#link-repair{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+
+#bright-logo-img{
+    position: absolute;
+    width: 200px;
+}
+
+#link-to-bright{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    z-index: 1;
+}
+
+#bright-logo-div{
+    position: absolute;
+    width: 200px;
+    left: 2%;
+    top: 2%;
+}
+
+#report-div:hover{
+    transform: scale(1.1);
+}
+
+#report-div:hover #info-bubble{
+    transform:rotate(360deg);
+}
+
+#repair-div:hover{
+    transform: scale(1.1);
+}
+
+#repair-div:hover #hammer-wrench{
+    transform:rotate(360deg);
+}
+
+
