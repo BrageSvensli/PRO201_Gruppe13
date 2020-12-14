@@ -20,7 +20,8 @@ body * {
 }
 
 #logo {
-    height: 100%;
+    width: 150px;
+    padding: 10px;
 }
 
 
@@ -45,6 +46,10 @@ body * {
     grid-template-rows: repeat(10, 1fr);
 }
 
+#nav-users-p{
+    color: orangered;
+}
+
 #camp-title {
     padding: 10px;
     font-weight: 500;
@@ -55,3 +60,49 @@ body * {
     padding: 15px;
     font-size: 20px;
 }
+
+#main-content-container{
+    color: #9FD18B;
+    position: relative;
+    left: 300px;
+    top: 200px;
+}
+
+input{
+    border: 2px solid #9FD18B;
+    background-color: #405C6A;
+    color: #ffff;
+    box-sizing: border-box;
+    height: 35px;
+}
+
+#button{
+    background-color: #9FD18B; 
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      position: absolute;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    border-radius: 10%;
+    }
+    
+    #button:hover{
+        background-color: #405C6A;
+        color:  #9FD18B;
+    }
+
+    #userIcon{
+        color: #ffff;
+        font-size: 30px;
+       position: relative;
+        top: -50px;
+        left: 90%;
+        
+        
+    }@media only screen and (min-width:768){
+  #page-conteiner
+    }
