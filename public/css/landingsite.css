@@ -102,6 +102,7 @@ body{
 
 #report-div:hover{
     transform: scale(1.1);
+    background-color:#9FD18B;
 }
 
 #report-div:hover #info-bubble{
@@ -110,6 +111,7 @@ body{
 
 #repair-div:hover{
     transform: scale(1.1);
+    background-color:#9FD18B;
 }
 
 #repair-div:hover #hammer-wrench{
