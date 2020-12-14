@@ -1,6 +1,6 @@
-function postData(data) {
+async function postData(data) {
 
-    console.log("Hello ...");
+    console.log("Posted data to '/api'");
 
     const options = {
         method: 'POST',
@@ -10,8 +10,5 @@ function postData(data) {
         }
     };
 
-    fetch('/api', options)
-        .then((res) => {
-            console.log(res);
-        });
+    return await fetch('/api', options).then((res) => {return res;});
 }

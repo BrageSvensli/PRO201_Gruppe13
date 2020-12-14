@@ -1,1 +1,17 @@
-[{"id":"","name":"","location":""},{"id":"sfd","name":"sdf","location":"f"},{"id":"001","name":"324","location":"we09w84"}]
+[
+    {
+        "id": "1",
+        "name": "Ogaboga",
+        "location": "Afrika"
+    },
+    {
+        "id": "2",
+        "name": "Koalipur",
+        "location": "Kenya"
+    },
+    {
+        "id": "3",
+        "name": "Hurobi camp",
+        "location": "Kenya"
+    }
+]

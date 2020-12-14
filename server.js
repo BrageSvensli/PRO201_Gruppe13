@@ -1,5 +1,6 @@
 
 const Workers = require('./server_functions/Workers.js');
+const Users = require('./server_functions/Users.js');
 const Camps = require('./server_functions/Camps.js');
 const Parts = require('./server_functions/Parts.js');
 const Products = require('./server_functions/Products.js');
@@ -25,10 +26,39 @@ app.get('/test', (req, res) => {
     fs.createReadStream('./public/input.html').pipe(res);
 });
 
+// Call for getting all camps
+app.get('/camps', function (req, res) {
 
-app.post('/api', (req, res) => {
-    
+    if (true || req.headers.token == 'correct token..') {
+        const data = Camps.getCamps()
+
+        res.json(data);
+    } else {
+        res.sendStatus(403);
+    }
+});
+
+app.get('/login', function (req, res) {
+    console.log('Login..');
+    res.json(Users.loginUser(JSON.parse(req.headers.data)));
+})
+
+
+app.post('/api', async function (req, res) {
+    console.log("Hey");
+    console.log(req.headers.data);
     const data = JSON.parse(req.headers.data);
+
+    if (data.request_type == 'login') {
+        console.log('login..');
+        // Should return a token
+        res.json(Users.loginUser(data));
+    } else if(data.request_type == 'user-add') {
+        Users.addUser(data);
+    }
+
+
+
 
     if (data.type == 'Worker') {
         Workers.updateWorker(data);
@@ -41,8 +71,6 @@ app.post('/api', (req, res) => {
     } else if (data.type == 'Repair') {
         Repairs.update(data);
     }
-
-    res.sendStatus(200);
 });
 
 
@@ -66,5 +94,5 @@ function printData(path) {
     }
 }
 
-printData(config.JSON_PATH_CAMP);
-printData(config.JSON_PATH_WORKER);
+printData(config.JSON_PATH_CAMPS);
+printData(config.JSON_PATH_USERS);

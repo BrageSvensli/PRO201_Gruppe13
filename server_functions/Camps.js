@@ -12,8 +12,14 @@ class Camp {
     }
 }
 
+function getCamps() {
+    const JSON_path = config.JSON_PATH_CAMPS;
+    const dataArray = db.readJSON(JSON_path);
+    return dataArray;
+}
+
 function updateCamp(data) {
-    const JSON_path = config.JSON_PATH_CAMP;
+    const JSON_path = config.JSON_PATH_CAMPS;
     const dataArray = db.readJSON(JSON_path);
 
     // Check if camp alreaddy exists, and update info.
@@ -41,4 +47,4 @@ function updateCamp(data) {
     
 }
 
-module.exports = { updateCamp };
+module.exports = { updateCamp, getCamps };
