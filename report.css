@@ -1,0 +1,91 @@
+body {
+    
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: #174A5B;
+}
+
+#main-container{
+    
+  display: grid;
+}
+
+#report-box {
+    
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 620px;
+    position: relative;
+    left: 420px;
+    top: 120px;
+    border: 5px solid #C3DC93;
+}
+
+#report-box h1 {
+    
+    text-align: center;
+    color: #C3DC93;
+    font-size: 42px;
+}
+
+#serial-number {
+    
+    
+ display: block;
+ margin : 0 auto;
+ position: relative;
+ text-align: center;
+ top: 20px;
+           
+}
+
+#label-problems {
+    
+ display: block;
+ margin : 0 auto;
+ position: relative;
+ text-align: center;
+ top: 40px;
+}
+
+#led-lights {
+   
+ display: block;
+ margin : 0 auto;
+ position: relative;
+ text-align: center;
+ top: 60px;
+ background-color: #174A5B;
+ width: 270px;
+ height: 80px;
+ font-size: 30px;
+ color: #C3DC93;
+ border: 10px solid #C3DC93;
+    
+}
+
+.btn-submit {
+    
+  background-color: #C3DC93;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  position: relative;
+  top: 100px;
+  left: 166px;
+  
+}
+
+
+
+
+
+
+
+
+
+
