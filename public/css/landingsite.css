@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+
+#main-container{
+    margin: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color:#174A5B;
+    overflow: hidden;
+}
+
+
+#report-link{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #FBF6ED;
+    top: 30%;
+    left: 30%;
+    border: 10px solid #9FD18B;
+}
+
+#report-text{
+    position: absolute;
+    color: #174A5B;
+    top: 50%;
+    font-size: 400%;
+    text-align: center;
+    left: 10%;
+}
+
+#info-bubble{
+    position: absolute;
+    left: 10%;
+    top: -3%;
+    width: 200px;
+    
+}
+
+#repair-link{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #FBF6ED;
+    top: 30%;
+    left: 60%;
+    border: 10px solid #9FD18B;
+}
+
+#hammer-wrench{
+    position: absolute;
+    width: 170px;
+    left: 16%;
+  
+}
+
+#repair-text{
+    position: absolute;
+    color: #174A5B;
+    top: 50%;
+    font-size: 400%;
+    text-align: center;
+    left: 10%;
+}
+
+#link-report{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+
+#link-repair{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+
+#bright-logo-img{
+    position: absolute;
+    width: 200px;
+}
+
+#bright-logo-div{
+    position: absolute;
+    width: 200px;
+    left: 2%;
+    top: 2%;
+}
