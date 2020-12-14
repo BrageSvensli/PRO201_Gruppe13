@@ -3,7 +3,7 @@ body{
 }
 
 #main-container{
-    margin: 0;
+    margin: auto;
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -19,7 +19,7 @@ body{
     background-color: #FBF6ED;
     top: 30%;
     left: 30%;
-    border: 10px solid #9FD18B;
+    border: 5px solid #9FD18B;
     transition: transform .2s;
 }
 
@@ -47,7 +47,7 @@ body{
     background-color: #FBF6ED;
     top: 30%;
     left: 60%;
-    border: 10px solid #9FD18B;
+    border: 5px solid #9FD18B;
     transition: transform .2s;
 }
 
