@@ -37,7 +37,7 @@ body{
     left: 10%;
     top: -3%;
     width: 200px;
-    
+    transition: transform 1.5s;
 }
 
 #repair-div{
@@ -55,7 +55,7 @@ body{
     position: absolute;
     width: 170px;
     left: 16%;
-  
+    transition: transform 1.5s;
 }
 
 #repair-text{
@@ -86,6 +86,13 @@ body{
     width: 200px;
 }
 
+#link-to-bright{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    z-index: 1;
+}
+
 #bright-logo-div{
     position: absolute;
     width: 200px;
@@ -97,7 +104,16 @@ body{
     transform: scale(1.1);
 }
 
+#report-div:hover #info-bubble{
+    transform:rotate(360deg);
+}
+
 #repair-div:hover{
     transform: scale(1.1);
 }
+
+#repair-div:hover #hammer-wrench{
+    transform:rotate(360deg);
+}
+
 
