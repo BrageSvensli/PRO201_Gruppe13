@@ -1,4 +1,10 @@
 
+#products-view{
+position: relative;
+color: #9FD18B;
+}
+
+
 input{
     border: 2px solid #9FD18B;
     background-color: #405C6A;
@@ -12,7 +18,8 @@ input{
       border: none;
       color: white;
       padding: 15px 32px;
-      position: absolute;
+      position: relative;
+      left: 90px;
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
@@ -24,6 +31,8 @@ input{
     #button:hover{
         background-color: #405C6A;
         color:  #9FD18B;
+        
+        
     }
 
     #userIcon{
