@@ -15,6 +15,22 @@ body {
     height: 100vh;
 }
 
+
+#bright-img-logo{
+    
+    position: absolute;
+    width: 200px;
+    
+}
+
+#logo-bright {
+    
+    position: absolute;
+    width: 200px;
+    left: 2%;
+    top: 2%;
+}
+
 #report-box {
     
     background-color: #FFFFFF;
