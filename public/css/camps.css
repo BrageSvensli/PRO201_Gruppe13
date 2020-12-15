@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#page-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #FBF6ED;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+#logo {
+    width: 150px;
+    padding: 10px;
+}
+
+
+#top-bar-container {
+    position: relative;
+    grid-column: 1 / end;
+    grid-row: 1;
+    background-color: #405C6A;
+    border-bottom: solid 2px #9FD18B;
+}
+
+#camps-dropdown{
+    
+    position: relative;
+    grid-column: 2 / 5;
+    grid-row: 3 / 10;
+    background-color: #405C6A;
+    border: solid 2px #9FD18B;
+    color: #FBF6ED;
+    font-size: 30px;
+
+}
+
+#camps-map{
+    
+    position: relative;
+    grid-column: 6 / 10;
+    grid-row: 3 / 10;
+    background-color: #405C6A;
+    border: solid 2px #9FD18B;
+}
+
+
